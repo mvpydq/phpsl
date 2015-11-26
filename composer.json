@@ -1,0 +1,11 @@
+{
+	"name": "phpsl/phpsl",
+	"description": "php stand library",	
+	"license": "sogou",
+	"type": "project",
+	"autoload": {
+		"classmap": [
+			"lib"
+		]
+	}
+}
