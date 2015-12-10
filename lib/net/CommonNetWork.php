@@ -102,8 +102,8 @@ class CommonNetWork {
 
         $ipNum = 256 * 256 * 256 * intval($ipArr[0]);
         $ipNum += 256 * 256 * intval($ipArr[1]);
-        $ipNum += 256 * 256 * intval($ipArr[2]);
-        $ipNum += 256 * 256 * intval($ipArr[3]);
+        $ipNum += 256 * intval($ipArr[2]);
+        $ipNum += intval($ipArr[3]);
 
         return $ipNum;
     }
